@@ -1,0 +1,22 @@
+{
+  "name": "gaurav-backend",
+  "version": "1.0.0",
+  "description": "a simple manger for backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "gaurav joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
